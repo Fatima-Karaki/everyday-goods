@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+
+# Runtime data (regenerated from server/data/seed.js on first start)
+server/data/db.json
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS/editor files
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
